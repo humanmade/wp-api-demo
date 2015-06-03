@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,uCAAW;EACV,YAAY,EAAE,CAAC",
+"sources": ["../templates/sass/page.scss"],
+"names": [],
+"file": "page.min.css"
+}
