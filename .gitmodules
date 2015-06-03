@@ -19,3 +19,6 @@
 [submodule "content/plugins-mu/hm-mandrill"]
 	path = content/plugins-mu/hm-mandrill
 	url = git@github.com:humanmade/hm-mandrill.git
+[submodule "content/plugins-mu/wp-api"]
+	path = content/plugins-mu/wp-api
+	url = git@github.com:WP-API/WP-API.git
