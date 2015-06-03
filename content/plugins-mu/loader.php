@@ -16,6 +16,7 @@ $hm_mu_plugins = array(
 	'hm-mandrill/plugin.php',
 	'wp-imgix/wp-imgix.php',
 	'wp-api/plugin.php',
+	'rest-api-console/rest-api-console.php',
 );
 
 foreach ( $hm_mu_plugins as $file ) {
