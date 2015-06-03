@@ -22,6 +22,3 @@
 [submodule "content/plugins-mu/wp-api"]
 	path = content/plugins-mu/wp-api
 	url = git@github.com:WP-API/WP-API.git
-[submodule "content/plugins-mu/rest-api-console"]
-	path = content/plugins-mu/rest-api-console
-	url = git@github.com:WP-API/rest-api-console.git
