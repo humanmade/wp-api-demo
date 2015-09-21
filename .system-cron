@@ -1,3 +1,7 @@
 cd content/plugins-mu/wp-api
 git checkout develop
 git pull
+cd ../rest-api-console
+git checkout master
+git pull
+
