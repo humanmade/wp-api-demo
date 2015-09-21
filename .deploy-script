@@ -4,4 +4,7 @@ git pull
 cd ../rest-api-console
 git checkout master
 git pull
+npm install
+npm install grunt-cli
+./node_modules/grunt-cli/bin/grunt
 
