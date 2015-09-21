@@ -31,11 +31,11 @@ if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 	defined( 'WP_DEBUG' ) or define( 'WP_DEBUG', true );
 	defined( 'SAVEQUERIES' ) or define( 'SAVEQUERIES', true );
 
-} elseif ( file_exists( '/var/cloudformation-vars.php' ) ) {
+} elseif ( file_exists( __DIR__ . '/wp-config-production.php' ) ) {
 
 	defined( 'HM_DEV' ) or define( 'HM_DEV', false );
 
-	include( '/var/cloudformation-vars.php' );
+	include( __DIR__ . '/wp-config-production.php' );
 }
 
 /**
