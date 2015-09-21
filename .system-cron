@@ -1,0 +1,3 @@
+cd content/plugins-mu/wp-api
+git checkout develop
+git pull
