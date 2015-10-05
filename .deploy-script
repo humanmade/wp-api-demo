@@ -8,7 +8,7 @@ git pull
 cd ../rest-api-console
 git checkout master
 git pull
-npm install
-npm install grunt-cli
+npm --loglevel error install
+npm --loglevel error install grunt-cli
 ./node_modules/grunt-cli/bin/grunt
 
