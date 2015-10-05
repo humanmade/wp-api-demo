@@ -6,7 +6,7 @@ cd content/plugins-mu/wp-api
 git checkout develop
 git pull
 cd ../rest-api-console
-git checkout master
+git checkout node-sass
 git pull
 npm --loglevel error install
 npm --loglevel error install grunt-cli
