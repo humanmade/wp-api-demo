@@ -10,18 +10,15 @@
 [submodule "content/plugins-mu/wp-imgix"]
 	path = content/plugins-mu/wp-imgix
 	url = git@github.com:humanmade/WP-Imgix.git
-[submodule "content/plugins-mu/memcached-object-cache"]
-	path = content/plugins-mu/memcached-object-cache
-	url = git@github.com:humanmade/memcache-object-cache.git
 [submodule "content/plugins-mu/batcache"]
 	path = content/plugins-mu/batcache
 	url = git@github.com:humanmade/batcache.git
-[submodule "content/plugins-mu/hm-mandrill"]
-	path = content/plugins-mu/hm-mandrill
-	url = git@github.com:humanmade/hm-mandrill.git
 [submodule "content/plugins-mu/wp-api"]
 	path = content/plugins-mu/wp-api
 	url = git@github.com:WP-API/WP-API.git
 [submodule "content/plugins-mu/rest-api-console"]
 	path = content/plugins-mu/rest-api-console
 	url = git@github.com:WP-API/rest-api-console.git
+[submodule "content/plugins-mu/memcached-object-cache-pecl"]
+	path = content/plugins-mu/memcached-object-cache-pecl
+	url = git@github.com:tollmanz/wordpress-pecl-memcached-object-cache.git
