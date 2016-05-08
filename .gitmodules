@@ -22,3 +22,12 @@
 [submodule "content/plugins-mu/memcached-object-cache-pecl"]
 	path = content/plugins-mu/memcached-object-cache-pecl
 	url = git@github.com:tollmanz/wordpress-pecl-memcached-object-cache.git
+[submodule "content/plugins-mu/oauth"]
+	path = content/plugins-mu/oauth
+	url = git@github.com:WP-API/OAuth1.git
+[submodule "content/plugins/broker-authentication"]
+	path = content/plugins/broker-authentication
+	url = git@github.com:humanmade/BrokerAuthentication.git
+[submodule "content/themes/broker-authentication"]
+	path = content/themes/broker-authentication
+	url = git@github.com:humanmade/BrokerTheme.git
