@@ -34,3 +34,6 @@
 [submodule "content/plugins-mu/aws-ses"]
 	path = content/plugins-mu/aws-ses
 	url = git@github.com:humanmade/aws-ses-wp-mail.git
+[submodule "content/plugins/rest-oauth"]
+	path = content/plugins/rest-oauth
+	url = git@github.com:WP-API/OAuth1.git
