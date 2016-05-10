@@ -74,6 +74,13 @@ $table_prefix  = 'wp_';
  */
 define( 'WPLANG', '' );
 
+if ( strpos( $_SERVER['HTTP_HOST'], 'wp-api.org' ) !== false ) {
+	$current_site = 'wp-api.org';
+} else {
+	$current_site = $_SERVER['HTTP_HOST'];
+}
+defined( 'DOMAIN_CURRENT_SITE' ) or define( 'DOMAIN_CURRENT_SITE', $current_site );
+
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
 define( 'PATH_CURRENT_SITE', '/' );
