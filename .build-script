@@ -12,4 +12,5 @@ npm --loglevel error install
 npm --loglevel error install grunt-cli
 ./node_modules/grunt-cli/bin/grunt
 cd ../../themes/broker-authentication
+git checkout master
 git pull
