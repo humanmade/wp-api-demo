@@ -74,6 +74,12 @@ $table_prefix  = 'wp_';
  */
 define( 'WPLANG', '' );
 
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', true );
+define( 'PATH_CURRENT_SITE', '/' );
+define( 'SITE_ID_CURRENT_SITE', 1 );
+define( 'BLOG_ID_CURRENT_SITE', 1 );
+
 // Define Site URL: WordPress in a subdirectory.
 if ( ! defined( 'WP_SITEURL' ) )
 	define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress' );

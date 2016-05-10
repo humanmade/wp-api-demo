@@ -31,3 +31,6 @@
 [submodule "content/themes/broker-authentication"]
 	path = content/themes/broker-authentication
 	url = git@github.com:humanmade/BrokerTheme.git
+[submodule "content/plugins-mu/aws-ses"]
+	path = content/plugins-mu/aws-ses
+	url = git@github.com:humanmade/aws-ses-wp-mail.git
