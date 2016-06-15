@@ -15,4 +15,5 @@ cd ../../themes/broker-authentication
 git checkout master
 git pull
 cd ../../plugins/basic-auth
+git checkout master
 git pull
