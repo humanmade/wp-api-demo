@@ -37,3 +37,6 @@
 [submodule "content/plugins/rest-oauth"]
 	path = content/plugins/rest-oauth
 	url = git@github.com:WP-API/OAuth1.git
+[submodule "content/plugins/basic-auth"]
+	path = content/plugins/basic-auth
+	url = git@github.com:WP-API/Basic-Auth.git
