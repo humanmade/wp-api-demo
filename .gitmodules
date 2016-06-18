@@ -40,3 +40,6 @@
 [submodule "content/plugins/basic-auth"]
 	path = content/plugins/basic-auth
 	url = git@github.com:WP-API/Basic-Auth.git
+[submodule "content/plugins/broker-authentication-server"]
+	path = content/plugins/broker-authentication-server
+	url = git@github.com:WP-API/broker-server.git
