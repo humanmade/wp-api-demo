@@ -107,6 +107,8 @@ define( 'WPMU_PLUGIN_URL', WP_HOME . '/content/plugins-mu' );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
 
+define( 'AUTHBROKER_LOG', ini_get( 'error_log' ) );
+
 if ( ! HM_DEV ) {
 	defined( 'WP_CACHE' ) OR define( 'WP_CACHE', true );
 }
