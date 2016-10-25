@@ -13,7 +13,6 @@ if ( ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) )
 
 $hm_mu_plugins = array(
 	's3-uploads/s3-uploads.php',
-	'hm-mandrill/plugin.php',
 	'wp-imgix/wp-imgix.php',
 	'wp-api/plugin.php',
 	'rest-api-console/rest-api-console.php',
