@@ -113,6 +113,7 @@ if ( ! HM_DEV ) {
 	defined( 'WP_CACHE' ) OR define( 'WP_CACHE', true );
 }
 
+require_once( WP_CONTENT_DIR . '/hm-platform/load.php' );
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
