@@ -17,3 +17,6 @@ git pull
 cd ../../plugins/basic-auth
 git checkout master
 git pull
+cd ../rest-oauth
+git checkout master
+git pull
