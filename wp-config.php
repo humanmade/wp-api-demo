@@ -64,6 +64,11 @@ define( 'NONCE_SALT',       '' );
  */
 $table_prefix  = 'wp_';
 
+global $hm_platform;
+$hm_platform = array(
+	'redis' => true,
+	'memcached' => false,
+);
 /**
  * WordPress Localized Language, defaults to English.
  *
