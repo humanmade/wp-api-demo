@@ -28,3 +28,6 @@
 [submodule "content/hm-platform"]
 	path = content/hm-platform
 	url = git@github.com:humanmade/hm-platform.git
+[submodule "content/plugins-mu/restsplain"]
+	path = content/plugins-mu/restsplain
+	url = git@github.com:humanmade/Restsplain.git

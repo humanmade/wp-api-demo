@@ -13,6 +13,7 @@ if ( ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) )
 
 $hm_mu_plugins = array(
 	'rest-api-console/rest-api-console.php',
+	'restsplain/Restsplain.php',
 );
 
 foreach ( $hm_mu_plugins as $file ) {
