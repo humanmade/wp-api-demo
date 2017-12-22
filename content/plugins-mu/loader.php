@@ -12,7 +12,6 @@ if ( ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) )
 	return;
 
 $hm_mu_plugins = array(
-	'wp-api/plugin.php',
 	'rest-api-console/rest-api-console.php',
 );
 
