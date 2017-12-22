@@ -2,8 +2,8 @@ cd wordpress
 git checkout master
 git pull
 cd ../
-cd content/plugins-mu/wp-api
-git checkout develop
+cd content/plugins-mu/restsplain
+git checkout master
 git pull
 cd ../rest-api-console
 git checkout node-sass
