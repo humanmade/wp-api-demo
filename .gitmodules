@@ -4,9 +4,6 @@
 [submodule "content/themes/_s"]
 	path = content/themes/_s
 	url = git@github.com:Automattic/_s.git
-[submodule "content/plugins-mu/wp-api"]
-	path = content/plugins-mu/wp-api
-	url = git@github.com:WP-API/WP-API.git
 [submodule "content/plugins-mu/rest-api-console"]
 	path = content/plugins-mu/rest-api-console
 	url = git@github.com:WP-API/rest-api-console.git
@@ -31,3 +28,6 @@
 [submodule "content/hm-platform"]
 	path = content/hm-platform
 	url = git@github.com:humanmade/hm-platform.git
+[submodule "content/plugins-mu/restsplain"]
+	path = content/plugins-mu/restsplain
+	url = git@github.com:humanmade/Restsplain.git
