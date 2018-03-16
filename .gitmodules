@@ -37,3 +37,6 @@
 [submodule "content/plugins/app-connect-server"]
 	path = content/plugins/app-connect-server
 	url = git@github.com:humanmade/app-connect-server.git
+[submodule "content/plugins/rest-oauth2"]
+	path = content/plugins/rest-oauth2
+	url = https://github.com/WP-API/OAuth2.git
