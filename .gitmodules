@@ -31,3 +31,12 @@
 [submodule "content/plugins-mu/restsplain"]
 	path = content/plugins-mu/restsplain
 	url = git@github.com:humanmade/Restsplain.git
+[submodule "content/themes/apps-beta"]
+	path = content/themes/apps-beta
+	url = https://github.com/WP-API/broker-theme.git
+[submodule "content/plugins/app-connect-server"]
+	path = content/plugins/app-connect-server
+	url = git@github.com:humanmade/app-connect-server.git
+[submodule "content/plugins/rest-oauth2"]
+	path = content/plugins/rest-oauth2
+	url = https://github.com/WP-API/OAuth2.git
