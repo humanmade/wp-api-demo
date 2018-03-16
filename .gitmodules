@@ -34,3 +34,6 @@
 [submodule "content/themes/apps-beta"]
 	path = content/themes/apps-beta
 	url = https://github.com/WP-API/broker-theme.git
+[submodule "content/plugins/app-connect-server"]
+	path = content/plugins/app-connect-server
+	url = git@github.com:humanmade/app-connect-server.git
