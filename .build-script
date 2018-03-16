@@ -14,6 +14,11 @@ npm --loglevel error install grunt-cli
 cd ../../themes/broker-authentication
 git checkout master
 git pull
+cd ../apps-beta
+git checkout master
+git pull
+npm install
+npm run build
 cd ../../plugins/basic-auth
 git checkout master
 git pull
