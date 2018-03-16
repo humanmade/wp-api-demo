@@ -25,3 +25,9 @@ git pull
 cd ../rest-oauth
 git checkout master
 git pull
+cd ../rest-oauth2
+git checkout master
+git pull
+cd ../app-connect-server
+git checkout master
+git pull
