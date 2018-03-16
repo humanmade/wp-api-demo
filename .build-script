@@ -17,6 +17,7 @@ git pull
 cd ../apps-beta
 git checkout v2
 git pull
+git submodule update --init --recursive
 npm install
 npm run build
 cd ../../plugins/basic-auth
