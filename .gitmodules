@@ -4,9 +4,6 @@
 [submodule "content/themes/_s"]
 	path = content/themes/_s
 	url = git@github.com:Automattic/_s.git
-[submodule "content/plugins-mu/rest-api-console"]
-	path = content/plugins-mu/rest-api-console
-	url = git@github.com:WP-API/rest-api-console.git
 [submodule "content/plugins-mu/oauth"]
 	path = content/plugins-mu/oauth
 	url = git@github.com:WP-API/OAuth1.git
