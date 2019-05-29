@@ -1,7 +1,5 @@
-cd wordpress
-git checkout master
-git pull
-cd ../
+composer install --no-dev
+
 cd content/plugins-mu/restsplain
 git checkout master
 git pull

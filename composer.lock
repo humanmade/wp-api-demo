@@ -1,0 +1,2723 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0fb29259542769b61f001605c4c55367",
+    "packages": [
+        {
+            "name": "altis/altis",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis.git",
+                "reference": "6e86471be243d2d172532263936cb1828efc571e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis/zipball/6e86471be243d2d172532263936cb1828efc571e",
+                "reference": "6e86471be243d2d172532263936cb1828efc571e",
+                "shasum": ""
+            },
+            "require": {
+                "altis/analytics": "^1.0.0",
+                "altis/cloud": "^1.0.0",
+                "altis/cms": "^1.0.0",
+                "altis/core": "^1.0.0",
+                "altis/dev-tools": "^1.0.0",
+                "altis/documentation": "^1.0.0",
+                "altis/enhanced-search": "^1.0.0",
+                "altis/media": "^1.0.0",
+                "altis/multilingual": "^1.0.0",
+                "altis/security": "^1.0.0",
+                "altis/seo": "^1.0.0",
+                "altis/sso": "^1.0.0",
+                "altis/workflow": "^1.0.0",
+                "php": ">=7.1"
+            },
+            "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Altis DXP",
+            "time": "2019-05-23T12:38:29+00:00"
+        },
+        {
+            "name": "altis/analytics",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-analytics.git",
+                "reference": "c242642352d56120c383accc3db533b5c73f29ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-analytics/zipball/c242642352d56120c383accc3db533b5c73f29ad",
+                "reference": "c242642352d56120c383accc3db533b5c73f29ad",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/hm-gtm": "2.0.0",
+                "php": ">=7.1"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Analytics module for Altis",
+            "time": "2019-05-14T14:11:23+00:00"
+        },
+        {
+            "name": "altis/cloud",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-cloud.git",
+                "reference": "60abf3ab38fb87eeca47dfcb2b18ac13ce96eace"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/60abf3ab38fb87eeca47dfcb2b18ac13ce96eace",
+                "reference": "60abf3ab38fb87eeca47dfcb2b18ac13ce96eace",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/aws-xray": "1.1.3",
+                "humanmade/cavalcade": "1.0.0",
+                "humanmade/s3-uploads": "~2.1",
+                "humanmade/wordpress-pecl-memcached-object-cache": "2.0.0",
+                "humanmade/wp-redis": "0.7.1",
+                "humanmade/wp-redis-predis-client": "0.1.0",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php",
+                    "wp-config.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Cloud module for Altis",
+            "time": "2019-05-23T16:04:25+00:00"
+        },
+        {
+            "name": "altis/cms",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-cms.git",
+                "reference": "11a66c84186c6cef3a264068eff063bd5aa18b3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/11a66c84186c6cef3a264068eff063bd5aa18b3d",
+                "reference": "11a66c84186c6cef3a264068eff063bd5aa18b3d",
+                "shasum": ""
+            },
+            "require": {
+                "altis/cms-installer": "~0.2.1",
+                "johnpbloch/wordpress": "5.2.0",
+                "php": ">=7.1",
+                "stuttter/wp-user-signups": "3.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "CMS Module for Altis",
+            "time": "2019-05-22T10:47:52+00:00"
+        },
+        {
+            "name": "altis/cms-installer",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-cms-installer.git",
+                "reference": "e31031feaed83d0b42800fba1f4cfcfe8591ae3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/e31031feaed83d0b42800fba1f4cfcfe8591ae3d",
+                "reference": "e31031feaed83d0b42800fba1f4cfcfe8591ae3d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": ">=7.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Altis\\CMS\\Composer\\Plugin"
+            },
+            "autoload": {
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "CMS Installer plugin for Altis",
+            "time": "2019-05-24T13:33:02+00:00"
+        },
+        {
+            "name": "altis/core",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-core.git",
+                "reference": "a80681bb2aa2543389a780b34ccc353934af076a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-core/zipball/a80681bb2aa2543389a780b34ccc353934af076a",
+                "reference": "a80681bb2aa2543389a780b34ccc353934af076a",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.73.0",
+                "composer-plugin-api": "^1.0",
+                "composer/installers": "^1.4",
+                "php": ">=7.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Altis\\Composer\\Plugin"
+            },
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Core module for Altis",
+            "time": "2019-05-17T08:41:29+00:00"
+        },
+        {
+            "name": "altis/dev-tools",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-dev-tools.git",
+                "reference": "c27de53a9bdff9e72617257031b05b012a1af324"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-dev-tools/zipball/c27de53a9bdff9e72617257031b05b012a1af324",
+                "reference": "c27de53a9bdff9e72617257031b05b012a1af324",
+                "shasum": ""
+            },
+            "require": {
+                "johnbillion/query-monitor": "~3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Developer Tools module for Altis",
+            "time": "2019-05-20T12:53:38+00:00"
+        },
+        {
+            "name": "altis/documentation",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-documentation.git",
+                "reference": "aba8839b9fbebb625204750ce4906a9543fd654b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-documentation/zipball/aba8839b9fbebb625204750ce4906a9543fd654b",
+                "reference": "aba8839b9fbebb625204750ce4906a9543fd654b",
+                "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "~1.7.0",
+                "mustangostang/spyc": "^0.6.2",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Documentation module for Altis",
+            "time": "2019-05-14T14:12:37+00:00"
+        },
+        {
+            "name": "altis/enhanced-search",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-enhanced-search.git",
+                "reference": "a8ca10aab55134f76594a29f7f96780dc970c5c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/a8ca10aab55134f76594a29f7f96780dc970c5c6",
+                "reference": "a8ca10aab55134f76594a29f7f96780dc970c5c6",
+                "shasum": ""
+            },
+            "require-dev": {
+                "10up/elasticpress": "^2.8.1",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php",
+                    "inc/namespace.php",
+                    "vendor/autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Enhanced Search module for Altis",
+            "time": "2019-05-17T13:46:13+00:00"
+        },
+        {
+            "name": "altis/media",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-media.git",
+                "reference": "fd7496fca3f6fc291f710fe8839832013cac30a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-media/zipball/fd7496fca3f6fc291f710fe8839832013cac30a8",
+                "reference": "fd7496fca3f6fc291f710fe8839832013cac30a8",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/aws-rekognition": "0.1.5",
+                "humanmade/gaussholder": "1.1.3",
+                "humanmade/smart-media": "0.1.13",
+                "humanmade/tachyon-plugin": "0.10.2",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Media module for Altis",
+            "time": "2019-05-27T14:36:41+00:00"
+        },
+        {
+            "name": "altis/multilingual",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-multilingual.git",
+                "reference": "a514a5731d7f68d9f52fa058b2e7a88f0c47857a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-multilingual/zipball/a514a5731d7f68d9f52fa058b2e7a88f0c47857a",
+                "reference": "a514a5731d7f68d9f52fa058b2e7a88f0c47857a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Multilingual module for Altis",
+            "time": "2019-05-14T14:15:32+00:00"
+        },
+        {
+            "name": "altis/security",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-security.git",
+                "reference": "12cf32384e0d8c71b658cb016defc26002ababaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-security/zipball/12cf32384e0d8c71b658cb016defc26002ababaa",
+                "reference": "12cf32384e0d8c71b658cb016defc26002ababaa",
+                "shasum": ""
+            },
+            "require": {
+                "bjeavons/zxcvbn-php": "^0.4.0",
+                "humanmade/require-login": "1.0.0",
+                "humanmade/stream": "3.2.3",
+                "humanmade/two-factor": "0.2",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/",
+                    "inc/stream/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Security module for Altis",
+            "time": "2019-05-14T14:17:25+00:00"
+        },
+        {
+            "name": "altis/seo",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-seo.git",
+                "reference": "0ac5f006bf37b6a4dab42f60c8c1715ef74d18a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/0ac5f006bf37b6a4dab42f60c8c1715ef74d18a5",
+                "reference": "0ac5f006bf37b6a4dab42f60c8c1715ef74d18a5",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/amp": "1.0.4+hm",
+                "humanmade/facebook-instant-articles-wp": "4.2.1+hm",
+                "humanmade/hm-redirects": "0.5.0",
+                "humanmade/meta-tags": "0.1.3",
+                "humanmade/msm-sitemap": "1.4.1",
+                "humanmade/wp-seo": "0.14.0",
+                "php": ">=7.1"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "SEO module for Altis",
+            "time": "2019-05-14T14:17:26+00:00"
+        },
+        {
+            "name": "altis/sso",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-sso.git",
+                "reference": "ca8b82b777c4f5a1da713cd8d84b2ee0acdaffe9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-sso/zipball/ca8b82b777c4f5a1da713cd8d84b2ee0acdaffe9",
+                "reference": "ca8b82b777c4f5a1da713cd8d84b2ee0acdaffe9",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/delegated-oauth": "1.0.0",
+                "humanmade/wp-simple-saml": "0.4",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Single Sign-On module for Altis",
+            "time": "2019-05-14T14:18:11+00:00"
+        },
+        {
+            "name": "altis/workflow",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-workflow.git",
+                "reference": "f14a349c7dfb5214ac14930d23bf9fe61023fb3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-workflow/zipball/f14a349c7dfb5214ac14930d23bf9fe61023fb3f",
+                "reference": "f14a349c7dfb5214ac14930d23bf9fe61023fb3f",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/workflows": "0.3.3",
+                "php": ">=7.1"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Workflow module for Altis",
+            "time": "2019-05-14T14:18:00+00:00"
+        },
+        {
+            "name": "aws/aws-sdk-php",
+            "version": "3.96.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aws/aws-sdk-php.git",
+                "reference": "6dff66f544e9d9daeb5b2557ade5091d1caa7f77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6dff66f544e9d9daeb5b2557ade5091d1caa7f77",
+                "reference": "6dff66f544e9d9daeb5b2557ade5091d1caa7f77",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^5.3.3|^6.2.1",
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "^1.4.1",
+                "mtdowling/jmespath.php": "~2.2",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "andrewsville/php-token-reflection": "^1.4",
+                "aws/aws-php-sns-message-validator": "~1.0",
+                "behat/behat": "~3.0",
+                "doctrine/cache": "~1.4",
+                "ext-dom": "*",
+                "ext-openssl": "*",
+                "ext-pcntl": "*",
+                "ext-sockets": "*",
+                "nette/neon": "^2.3",
+                "phpunit/phpunit": "^4.8.35|^5.4.3",
+                "psr/cache": "^1.0",
+                "psr/simple-cache": "^1.0"
+            },
+            "suggest": {
+                "aws/aws-php-sns-message-validator": "To validate incoming SNS notifications",
+                "doctrine/cache": "To use the DoctrineCacheAdapter",
+                "ext-curl": "To send requests using cURL",
+                "ext-openssl": "Allows working with CloudFront private distributions and verifying received SNS messages",
+                "ext-sockets": "To use client-side monitoring"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aws\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Amazon Web Services",
+                    "homepage": "http://aws.amazon.com"
+                }
+            ],
+            "description": "AWS SDK for PHP - Use Amazon Web Services in your PHP project",
+            "homepage": "http://aws.amazon.com/sdkforphp",
+            "keywords": [
+                "amazon",
+                "aws",
+                "cloud",
+                "dynamodb",
+                "ec2",
+                "glacier",
+                "s3",
+                "sdk"
+            ],
+            "time": "2019-05-28T18:07:15+00:00"
+        },
+        {
+            "name": "bjeavons/zxcvbn-php",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bjeavons/zxcvbn-php.git",
+                "reference": "7a7e1130c74c715e84c60c27384f657e9574a933"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bjeavons/zxcvbn-php/zipball/7a7e1130c74c715e84c60c27384f657e9574a933",
+                "reference": "7a7e1130c74c715e84c60c27384f657e9574a933",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "satooshi/php-coveralls": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZxcvbnPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://github.com/bjeavons/zxcvbn-php"
+                }
+            ],
+            "description": "Realistic password strength estimation PHP library based on Zxcvbn JS",
+            "homepage": "https://github.com/bjeavons/zxcvbn-php",
+            "keywords": [
+                "password",
+                "zxcvbn"
+            ],
+            "time": "2018-07-23T05:05:36+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2018-08-27T06:10:37+00:00"
+        },
+        {
+            "name": "doctrine/instantiator",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "reference": "8e884e78f9f0eb1329e445619e04456e64d8051d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3,<8.0-DEV"
+            },
+            "require-dev": {
+                "athletic/athletic": "~0.1.8",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "http://ocramius.github.com/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://github.com/doctrine/instantiator",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "time": "2015-06-14T21:17:01+00:00"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "6d893938171a817f4e9bc9e86f2da1e370b7bcd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/6d893938171a817f4e9bc9e86f2da1e370b7bcd7",
+                "reference": "6d893938171a817f4e9bc9e86f2da1e370b7bcd7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2019-03-17T18:48:37+00:00"
+        },
+        {
+            "name": "facebook/facebook-instant-articles-sdk-extensions-in-php",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-instant-articles-sdk-extensions-in-php.git",
+                "reference": "de4470829537326987feadad6a19445c33a20383"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-instant-articles-sdk-extensions-in-php/zipball/de4470829537326987feadad6a19445c33a20383",
+                "reference": "de4470829537326987feadad6a19445c33a20383",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "<=1.0.5",
+                "facebook/facebook-instant-articles-sdk-php": "^1.8.3",
+                "php": "^5.4 || ^7.0"
+            },
+            "require-dev": {
+                "phpdocumentor/reflection-docblock": "^2.0",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^3.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\InstantArticles\\": "src/Facebook/InstantArticles/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-instant-articles-sdk-extensions-in-php/contributors"
+                }
+            ],
+            "description": "Facebook Instant Articles SDK Extensions in PHP to transform Instant Articles markup file into AMP",
+            "homepage": "https://github.com/facebook/facebook-instant-articles-sdk-extensions-in-php",
+            "keywords": [
+                "amp",
+                "articles",
+                "extensions",
+                "facebook",
+                "instant",
+                "instantarticles",
+                "sdk"
+            ],
+            "time": "2018-02-08T18:21:18+00:00"
+        },
+        {
+            "name": "facebook/facebook-instant-articles-sdk-php",
+            "version": "v1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-instant-articles-sdk-php.git",
+                "reference": "acefb2a5f0a0952bcfe062f45e159670bcb10c35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-instant-articles-sdk-php/zipball/acefb2a5f0a0952bcfe062f45e159670bcb10c35",
+                "reference": "acefb2a5f0a0952bcfe062f45e159670bcb10c35",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/graph-sdk": "~5.0",
+                "php": "^5.4 || ^5.6 || ^7",
+                "symfony/css-selector": "^2.8 || ^3.1 || ^4.1"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.6.0",
+                "phpdocumentor/reflection-docblock": "^2.0 || ^4.0",
+                "phpunit/phpunit": "4.8.*",
+                "squizlabs/php_codesniffer": "^2.6.0 || ^3.0.0",
+                "symfony/yaml": "2.1.* || 3.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\InstantArticles\\": "src/Facebook/InstantArticles/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-instant-articles-sdk-php/contributors"
+                }
+            ],
+            "description": "Facebook Instant Articles SDK for PHP",
+            "homepage": "https://github.com/facebook/facebook-instant-articles-sdk-php",
+            "keywords": [
+                "articles",
+                "facebook",
+                "instant",
+                "sdk"
+            ],
+            "time": "2019-03-21T19:01:02+00:00"
+        },
+        {
+            "name": "facebook/graph-sdk",
+            "version": "5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                },
+                "files": [
+                    "src/Facebook/polyfills.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/php-graph-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2018-12-11T22:56:31+00:00"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2018-04-22T15:46:56+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "humanmade/amp",
+            "version": "1.0.4+hm",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/amp-wp.git",
+                "reference": "c96fa7523872e14c403dd7066874041f38a1e8d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/amp-wp/zipball/c96fa7523872e14c403dd7066874041f38a1e8d6",
+                "reference": "c96fa7523872e14c403dd7066874041f38a1e8d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.6 || ^7.0",
+                "sabberworm/php-css-parser": "^8"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "wimg/php-compatibility": "^8.1",
+                "wp-coding-standards/wpcs": "^0.14.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WordPress plugin for adding AMP support.",
+            "homepage": "https://github.com/ampproject/amp-wp",
+            "time": "2019-03-26T16:58:54+00:00"
+        },
+        {
+            "name": "humanmade/aws-rekognition",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/aws-rekognition.git",
+                "reference": "f053ced257ed5f64ea34ad3a8829523829779b55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/aws-rekognition/zipball/f053ced257ed5f64ea34ad3a8829523829779b55",
+                "reference": "f053ced257ed5f64ea34ad3a8829523829779b55",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joe@humanmade.com"
+                }
+            ],
+            "description": "Detect labels, faces, celebrities, and text in images automatically for easy searching and alt text generation.",
+            "time": "2019-05-14T10:05:22+00:00"
+        },
+        {
+            "name": "humanmade/aws-xray",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/aws-xray.git",
+                "reference": "c4daf6011f45c5a9fc9eecd0c219450a01a6873c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/aws-xray/zipball/c4daf6011f45c5a9fc9eecd0c219450a01a6873c",
+                "reference": "c4daf6011f45c5a9fc9eecd0c219450a01a6873c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-v2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joehoyle@gmail.com"
+                }
+            ],
+            "description": "HM Platform AWS X-Ray Integration",
+            "time": "2019-05-13T17:23:58+00:00"
+        },
+        {
+            "name": "humanmade/cavalcade",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Cavalcade.git",
+                "reference": "61436805c00ca28362d05616e1517247edab8613"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Cavalcade/zipball/61436805c00ca28362d05616e1517247edab8613",
+                "reference": "61436805c00ca28362d05616e1517247edab8613",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "dev-master"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "homepage": "https://hmn.md/"
+                }
+            ],
+            "description": "A better wp-cron. Horizontally scalable, works perfectly with multisite.",
+            "homepage": "https://github.com/humanmade/Cavalcade",
+            "time": "2019-04-16T05:02:57+00:00"
+        },
+        {
+            "name": "humanmade/delegated-oauth",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/delegated-oauth2.git",
+                "reference": "e094b1f14c1683ed2b9a611b6a0e83a043f8dd2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/delegated-oauth2/zipball/e094b1f14c1683ed2b9a611b6a0e83a043f8dd2d",
+                "reference": "e094b1f14c1683ed2b9a611b6a0e83a043f8dd2d",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Delegate OAuth 2 authorization to another WordPress site",
+            "time": "2019-04-01T09:20:51+00:00"
+        },
+        {
+            "name": "humanmade/facebook-instant-articles-wp",
+            "version": "4.2.1+hm",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/facebook-instant-articles-wp.git",
+                "reference": "de1ba982395e824b29b42ba76d8aec2523387ea3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/facebook-instant-articles-wp/zipball/de1ba982395e824b29b42ba76d8aec2523387ea3",
+                "reference": "de1ba982395e824b29b42ba76d8aec2523387ea3",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/facebook-instant-articles-sdk-extensions-in-php": "^0.2.1",
+                "facebook/facebook-instant-articles-sdk-php": "^1.10.0",
+                "facebook/graph-sdk": "^5.6",
+                "php": ">=5.4",
+                "symfony/css-selector": "2.8.*"
+            },
+            "require-dev": {
+                "wp-coding-standards/wpcs": "*"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Automattic",
+                    "homepage": "https://automattic.com/"
+                },
+                {
+                    "name": "Dekode",
+                    "homepage": "https://dekode.no/"
+                },
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook"
+                }
+            ],
+            "description": "Add support for Instant Articles for Facebook to your WordPress site.",
+            "keywords": [
+                "amp",
+                "articles",
+                "facebook",
+                "instant",
+                "wordpress"
+            ],
+            "time": "2019-03-26T14:55:52+00:00"
+        },
+        {
+            "name": "humanmade/gaussholder",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Gaussholder.git",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Gaussholder/zipball/8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/humanmade/Gaussholder/graphs/contributors"
+                }
+            ],
+            "description": "Fast and lightweight image previews for WordPress",
+            "keywords": [
+                "images",
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2019-05-13T10:17:03+00:00"
+        },
+        {
+            "name": "humanmade/hm-gtm",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/hm-gtm.git",
+                "reference": "17e2ff55439ef2030bb715e769b2233382e975db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/hm-gtm/zipball/17e2ff55439ef2030bb715e769b2233382e975db",
+                "reference": "17e2ff55439ef2030bb715e769b2233382e975db",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Robert O'Rourke",
+                    "email": "rob@humanmade.com"
+                }
+            ],
+            "description": "Google Tag Manager Tools for WordPress",
+            "time": "2019-04-15T16:59:02+00:00"
+        },
+        {
+            "name": "humanmade/hm-redirects",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/hm-redirects.git",
+                "reference": "745217e886b9db648a0c60677e1c49d326558c56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/hm-redirects/zipball/745217e886b9db648a0c60677e1c49d326558c56",
+                "reference": "745217e886b9db648a0c60677e1c49d326558c56",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^0.5.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Simple plugin for handling WordPress redirects in a scalable manner.",
+            "homepage": "https://github.com/humanmade/hm-redirects",
+            "keywords": [
+                "redirects",
+                "wordpress"
+            ],
+            "time": "2019-03-28T16:14:58+00:00"
+        },
+        {
+            "name": "humanmade/meta-tags",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/meta-tags.git",
+                "reference": "157721e2e013a0c555fdcd77184177256bae0242"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/meta-tags/zipball/157721e2e013a0c555fdcd77184177256bae0242",
+                "reference": "157721e2e013a0c555fdcd77184177256bae0242",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/installers": "^1.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Meta tag generator for Opengraph, Twitter & JSON+LD",
+            "time": "2019-03-27T18:30:21+00:00"
+        },
+        {
+            "name": "humanmade/msm-sitemap",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/msm-sitemap.git",
+                "reference": "fa4fff265d435b6185f1d1a0dc803b9b5ff52e4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/msm-sitemap/zipball/fa4fff265d435b6185f1d1a0dc803b9b5ff52e4e",
+                "reference": "fa4fff265d435b6185f1d1a0dc803b9b5ff52e4e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Comprehensive sitemaps for your WordPress.com VIP site.",
+            "homepage": "https://vip.wordpress.com/plugins/msm-sitemap/",
+            "time": "2019-03-05T18:34:59+00:00"
+        },
+        {
+            "name": "humanmade/require-login",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/hm-require-login.git",
+                "reference": "8f956e7f527bde476b40dd1c90a3ac584fe798bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/hm-require-login/zipball/8f956e7f527bde476b40dd1c90a3ac584fe798bb",
+                "reference": "8f956e7f527bde476b40dd1c90a3ac584fe798bb",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Script that requires users to be logged in view site.",
+            "time": "2019-03-16T07:30:24+00:00"
+        },
+        {
+            "name": "humanmade/s3-uploads",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/S3-Uploads.git",
+                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/f17559cba87e0a0a0191a747f62c74dbde60208d",
+                "reference": "f17559cba87e0a0a0191a747f62c74dbde60208d",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "~3.18",
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2019-04-16T05:09:44+00:00"
+        },
+        {
+            "name": "humanmade/smart-media",
+            "version": "0.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/smart-media.git",
+                "reference": "147b79fc7e762673ec13eb473e7fa09acc49b628"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/147b79fc7e762673ec13eb473e7fa09acc49b628",
+                "reference": "147b79fc7e762673ec13eb473e7fa09acc49b628",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Robert O'Rourke",
+                    "email": "rob@humanmade.com"
+                }
+            ],
+            "description": "Smart Media features for HM Cloud",
+            "time": "2019-05-10T15:50:57+00:00"
+        },
+        {
+            "name": "humanmade/stream",
+            "version": "3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/stream.git",
+                "reference": "471c16a661b380b1778ffd158076f78e1e9f5cf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/stream/zipball/471c16a661b380b1778ffd158076f78e1e9f5cf3",
+                "reference": "471c16a661b380b1778ffd158076f78e1e9f5cf3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-03-16T09:33:30+00:00"
+        },
+        {
+            "name": "humanmade/tachyon-plugin",
+            "version": "0.10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/tachyon-plugin.git",
+                "reference": "f91750e038240814dfd3d12f5c71c8976ffc0184"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/tachyon-plugin/zipball/f91750e038240814dfd3d12f5c71c8976ffc0184",
+                "reference": "f91750e038240814dfd3d12f5c71c8976ffc0184",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joe@humanmade.com"
+                }
+            ],
+            "description": "Rewrites WordPress image URLs to use Tachyon",
+            "time": "2019-05-20T10:18:04+00:00"
+        },
+        {
+            "name": "humanmade/two-factor",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/two-factor.git",
+                "reference": "7b4cce30d48b7c90591fe4991dd20ea7f92eb7ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/two-factor/zipball/7b4cce30d48b7c90591fe4991dd20ea7f92eb7ac",
+                "reference": "7b4cce30d48b7c90591fe4991dd20ea7f92eb7ac",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Two-Factor Authentication for WordPress.",
+            "time": "2018-09-17T23:01:41+00:00"
+        },
+        {
+            "name": "humanmade/wordpress-pecl-memcached-object-cache",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache.git",
+                "reference": "b8cc6dbda46d39499eaf55fa96c60a449ca936ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/wordpress-pecl-memcached-object-cache/zipball/b8cc6dbda46d39499eaf55fa96c60a449ca936ba",
+                "reference": "b8cc6dbda46d39499eaf55fa96c60a449ca936ba",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joehoyle@gmail.com"
+                }
+            ],
+            "description": "A WordPress object cache that uses the memcached (not memcache) PECL extension.",
+            "time": "2019-04-26T07:06:10+00:00"
+        },
+        {
+            "name": "humanmade/workflows",
+            "version": "0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Workflows.git",
+                "reference": "cf50ede2a0499b71469726e0bb25f27c99f85ba0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Workflows/zipball/cf50ede2a0499b71469726e0bb25f27c99f85ba0",
+                "reference": "cf50ede2a0499b71469726e0bb25f27c99f85ba0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^0.5.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Robert O'Rourke",
+                    "email": "rob@humanmade.com"
+                }
+            ],
+            "description": "Workflow management for WordPress, an extensible event and notification system.",
+            "time": "2019-05-13T14:16:24+00:00"
+        },
+        {
+            "name": "humanmade/wp-redis",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/wp-redis.git",
+                "reference": "71d3d15ad607b369c44394e5fa987d6fcad59df8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/wp-redis/zipball/71d3d15ad607b369c44394e5fa987d6fcad59df8",
+                "reference": "71d3d15ad607b369c44394e5fa987d6fcad59df8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "behat/behat": "^3.1",
+                "behat/mink-extension": "^2.2",
+                "behat/mink-goutte-driver": "^1.2",
+                "pantheon-systems/pantheon-wordpress-upstream-tests": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pantheon",
+                    "email": "noreply@pantheon.io"
+                }
+            ],
+            "time": "2018-12-14T18:30:09+00:00"
+        },
+        {
+            "name": "humanmade/wp-redis-predis-client",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/wp-redis-predis-client.git",
+                "reference": "1989eb417042ff6ad974796c7846dcf2a3c437aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/wp-redis-predis-client/zipball/1989eb417042ff6ad974796c7846dcf2a3c437aa",
+                "reference": "1989eb417042ff6ad974796c7846dcf2a3c437aa",
+                "shasum": ""
+            },
+            "require": {
+                "predis/predis": "~1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2019-04-12T16:23:29+00:00"
+        },
+        {
+            "name": "humanmade/wp-seo",
+            "version": "0.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/wp-seo.git",
+                "reference": "1038d3a86f5fe734e0345f93a2a0e62a8c0c815f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/wp-seo/zipball/1038d3a86f5fe734e0345f93a2a0e62a8c0c815f",
+                "reference": "1038d3a86f5fe734e0345f93a2a0e62a8c0c815f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "WP SEO is designed for professionals who want to build a solid foundation for an SEO-friendly website.",
+            "keywords": [
+                "plugin",
+                "seo",
+                "wordpress"
+            ],
+            "time": "2019-03-22T14:10:47+00:00"
+        },
+        {
+            "name": "humanmade/wp-simple-saml",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/wp-simple-saml.git",
+                "reference": "0ef475578c49e590f5447d3dee5b86f3632dab83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/wp-simple-saml/zipball/0ef475578c49e590f5447d3dee5b86f3632dab83",
+                "reference": "0ef475578c49e590f5447d3dee5b86f3632dab83",
+                "shasum": ""
+            },
+            "require": {
+                "onelogin/php-saml": "^3.0"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Shady Sharaf",
+                    "email": "shady@humanmade.com",
+                    "homepage": "http://sharaf.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Simple SAML plugin",
+            "homepage": "https://github.com/humanmade/wp-simple-saml",
+            "keywords": [
+                "SSO",
+                "onelogin",
+                "saml",
+                "single-sign-on",
+                "wordpress"
+            ],
+            "time": "2019-05-13T16:07:25+00:00"
+        },
+        {
+            "name": "johnbillion/query-monitor",
+            "version": "3.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnbillion/query-monitor.git",
+                "reference": "72454cdab5887675b98a506c9c7270a4e02d7fab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnbillion/query-monitor/zipball/72454cdab5887675b98a506c9c7270a4e02d7fab",
+                "reference": "72454cdab5887675b98a506c9c7270a4e02d7fab",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "johnkary/phpunit-speedtrap": "^1.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpunit/phpunit": "^5",
+                "roots/wordpress": "*",
+                "squizlabs/php_codesniffer": "^3.2",
+                "vlucas/phpdotenv": "^3",
+                "wp-cli/wp-cli-bundle": "^2.1",
+                "wp-coding-standards/wpcs": "~2.0.0",
+                "wp-phpunit/wp-phpunit": "*"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "wordpress-install-dir": "tests/wordpress"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John Blackbourn",
+                    "homepage": "https://johnblackbourn.com/"
+                }
+            ],
+            "description": "The Developer Tools panel for WordPress.",
+            "homepage": "https://github.com/johnbillion/query-monitor/",
+            "time": "2019-05-20T11:24:16+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "cefa3fa89a0e21fdbb9612b561725eed5d50c294"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cefa3fa89a0e21fdbb9612b561725eed5d50c294",
+                "reference": "cefa3fa89a0e21fdbb9612b561725eed5d50c294",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "5.2.0",
+                "johnpbloch/wordpress-core-installer": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2019-05-07T20:42:21+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "9d9c5f36166e7d31f1c90784e71dad3996d28a95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9d9c5f36166e7d31f1c90784e71dad3996d28a95",
+                "reference": "9d9c5f36166e7d31f1c90784e71dad3996d28a95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "5.2.0"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2019-05-07T20:42:17+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+                "reference": "fd12f5cfe27223b92b0f4bbc097059eb23cc56c4",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2018-11-09T20:10:38+00:00"
+        },
+        {
+            "name": "mtdowling/jmespath.php",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jmespath/jmespath.php.git",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "reference": "adcc9531682cf87dfda21e1fd5d0e7a41d292fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/jp.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                },
+                "files": [
+                    "src/JmesPath.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Declaratively specify how to extract elements from a JSON document",
+            "keywords": [
+                "json",
+                "jsonpath"
+            ],
+            "time": "2016-12-03T22:08:25+00:00"
+        },
+        {
+            "name": "mustangostang/spyc",
+            "version": "0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mustangostang/spyc.git",
+                "reference": "23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d",
+                "reference": "23c35ae854d835f2d7bcc3e3ad743d7e57a8c14d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.3.*@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Spyc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mustangostang",
+                    "email": "vlad.andersen@gmail.com"
+                }
+            ],
+            "description": "A simple YAML loader/dumper class for PHP",
+            "homepage": "https://github.com/mustangostang/spyc/",
+            "keywords": [
+                "spyc",
+                "yaml",
+                "yml"
+            ],
+            "time": "2017-02-24T16:06:33+00:00"
+        },
+        {
+            "name": "onelogin/php-saml",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onelogin/php-saml.git",
+                "reference": "c9026b26395a65184550055d9a01bdf9dbd30861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/c9026b26395a65184550055d9a01bdf9dbd30861",
+                "reference": "c9026b26395a65184550055d9a01bdf9dbd30861",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "robrichards/xmlseclibs": ">=3.0.3"
+            },
+            "require-dev": {
+                "pdepend/pdepend": "^2.5.0",
+                "php-coveralls/php-coveralls": "^1.0.2 || ^2.0",
+                "phploc/phploc": "^2.1 || ^3.0 || ^4.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1",
+                "sebastian/phpcpd": "^2.0 || ^3.0 || ^4.0",
+                "squizlabs/php_codesniffer": "^3.1.1"
+            },
+            "suggest": {
+                "ext-curl": "Install curl lib to be able to use the IdPMetadataParser for parsing remote XMLs",
+                "ext-gettext": "Install gettext and php5-gettext libs to handle translations",
+                "ext-openssl": "Install openssl lib in order to handle with x509 certs (require to support sign and encryption)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OneLogin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "OneLogin PHP SAML Toolkit",
+            "homepage": "https://developers.onelogin.com/saml/php",
+            "keywords": [
+                "SAML2",
+                "onelogin",
+                "saml"
+            ],
+            "time": "2019-03-11T09:41:32+00:00"
+        },
+        {
+            "name": "predis/predis",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrk/predis.git",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-curl": "Allows access to Webdis when paired with phpiredis",
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Predis\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete Redis client for PHP and HHVM",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "predis",
+                "redis"
+            ],
+            "time": "2016-06-16T16:22:20+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0",
+                "satooshi/php-coveralls": ">=1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2016-02-11T07:05:27+00:00"
+        },
+        {
+            "name": "robrichards/xmlseclibs",
+            "version": "3.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robrichards/xmlseclibs.git",
+                "reference": "406c68ac9124db033d079284b719958b829cb830"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/406c68ac9124db033d079284b719958b829cb830",
+                "reference": "406c68ac9124db033d079284b719958b829cb830",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "php": ">= 5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RobRichards\\XMLSecLibs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "A PHP library for XML Security",
+            "homepage": "https://github.com/robrichards/xmlseclibs",
+            "keywords": [
+                "security",
+                "signature",
+                "xml",
+                "xmldsig"
+            ],
+            "time": "2018-11-15T11:59:02+00:00"
+        },
+        {
+            "name": "sabberworm/php-css-parser",
+            "version": "8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+                "reference": "91bcc3e3fdb7386c9a2e0e0aa09ca75cc43f121f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "codacy/coverage": "^1.4",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabberworm\\CSS": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raphael Schweikert"
+                }
+            ],
+            "description": "Parser for CSS Files written in PHP",
+            "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+            "keywords": [
+                "css",
+                "parser",
+                "stylesheet"
+            ],
+            "time": "2019-02-22T07:42:52+00:00"
+        },
+        {
+            "name": "stuttter/wp-user-signups",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stuttter/wp-user-signups.git",
+                "reference": "0c5689441c6b82ec5de1f665b45a3b644592a66b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stuttter/wp-user-signups/zipball/0c5689441c6b82ec5de1f665b45a3b644592a66b",
+                "reference": "0c5689441c6b82ec5de1f665b45a3b644592a66b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2 or later"
+            ],
+            "authors": [
+                {
+                    "name": "John James Jacoby",
+                    "email": "johnjamesjacoby@me.com"
+                }
+            ],
+            "description": "The best way to manage user & site sign-ups in WordPress",
+            "homepage": "https://github.com/stuttter/wp-user-signups",
+            "time": "2017-04-03T21:44:43+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v2.8.50",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "7b1692e418d7ccac24c373528453bc90e42797de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7b1692e418d7ccac24c373528453bc90e42797de",
+                "reference": "7b1692e418d7ccac24c373528453bc90e42797de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2018-11-11T11:18:13+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "altis/local-server",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-local-server.git",
+                "reference": "3fdad09085a95a475a7961f1d758e6e6f3a71fef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/3fdad09085a95a475a7961f1d758e6e6f3a71fef",
+                "reference": "3fdad09085a95a475a7961f1d758e6e6f3a71fef",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1",
+                "php": ">=7.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Altis\\LocalServer\\Composer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Altis\\LocalServer\\": "inc/"
+                },
+                "files": [
+                    "wp-config.php",
+                    "load.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Local Server module for Altis",
+            "time": "2019-05-20T10:39:36+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
