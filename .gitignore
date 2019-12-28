@@ -22,3 +22,8 @@ Icon?
 Thumbs.db
 ._*
 .idea/
+
+/vendor/
+/wp-config.php
+/index.php
+/wordpress
