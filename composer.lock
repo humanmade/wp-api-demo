@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "127602a0465752d50b3f7ff7e2dda886",
+    "content-hash": "06b926b1843a26bcb521fc6053545bc6",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -4718,6 +4718,24 @@
                 "wordpress"
             ],
             "time": "2019-12-13T13:23:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/connect",
+            "version": "0.1-dev",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/connect/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/connect.zip?timestamp=1537265226"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/connect/"
         }
     ],
     "packages-dev": [
@@ -4769,7 +4787,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/connect": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

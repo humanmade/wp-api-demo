@@ -3,10 +3,27 @@
     "description": "Demo site for the WP REST API",
     "type": "project",
     "require": {
-        "altis/altis": "^3.0.0"
+        "altis/altis": "^3.0.0",
+        "wpackagist-plugin/connect": "0.1-dev"
     },
     "require-dev": {
         "altis/local-server": "^3.0.0"
+    },
+    "repositories": [
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
     },
     "license": "GPL-2.0-or-later",
     "authors": [
