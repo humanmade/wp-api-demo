@@ -735,16 +735,16 @@
         },
         {
             "name": "altis/seo",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-seo.git",
-                "reference": "8ffe342e2f1f2bb379f7b4db505a082520bb1ab3"
+                "reference": "cc25d7c82020c0c568cc84e00ec6fa11bb3051d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/8ffe342e2f1f2bb379f7b4db505a082520bb1ab3",
-                "reference": "8ffe342e2f1f2bb379f7b4db505a082520bb1ab3",
+                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/cc25d7c82020c0c568cc84e00ec6fa11bb3051d8",
+                "reference": "cc25d7c82020c0c568cc84e00ec6fa11bb3051d8",
                 "shasum": ""
             },
             "require": {
@@ -777,7 +777,7 @@
                 }
             ],
             "description": "SEO module for Altis",
-            "time": "2019-10-21T14:35:47+00:00"
+            "time": "2020-01-27T15:46:11+00:00"
         },
         {
             "name": "altis/sso",
