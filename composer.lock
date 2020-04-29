@@ -781,20 +781,20 @@
         },
         {
             "name": "altis/sso",
-            "version": "3.0.0",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-sso.git",
-                "reference": "b94c95281de0ec23821261fb7267565e3857b5df"
+                "reference": "912218b9b5890b8de6c3fd6c83a291c181adb0cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-sso/zipball/b94c95281de0ec23821261fb7267565e3857b5df",
-                "reference": "b94c95281de0ec23821261fb7267565e3857b5df",
+                "url": "https://api.github.com/repos/humanmade/altis-sso/zipball/912218b9b5890b8de6c3fd6c83a291c181adb0cd",
+                "reference": "912218b9b5890b8de6c3fd6c83a291c181adb0cd",
                 "shasum": ""
             },
             "require": {
-                "humanmade/delegated-oauth": "1.0.1",
+                "humanmade/delegated-oauth": "^1.0.2",
                 "humanmade/wp-simple-saml": "0.4",
                 "php": ">=7.1"
             },
@@ -819,7 +819,7 @@
                 }
             ],
             "description": "Single Sign-On module for Altis",
-            "time": "2019-10-21T14:37:48+00:00"
+            "time": "2020-02-12T10:21:08+00:00"
         },
         {
             "name": "altis/workflow",
@@ -1793,16 +1793,16 @@
         },
         {
             "name": "humanmade/delegated-oauth",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/delegated-oauth2.git",
-                "reference": "1c8ea1fc9b2244f0323c68a3f088e01001c8b957"
+                "reference": "695259116f05abd5ca82b6d46ab5ec8d02931cd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/delegated-oauth2/zipball/1c8ea1fc9b2244f0323c68a3f088e01001c8b957",
-                "reference": "1c8ea1fc9b2244f0323c68a3f088e01001c8b957",
+                "url": "https://api.github.com/repos/humanmade/delegated-oauth2/zipball/695259116f05abd5ca82b6d46ab5ec8d02931cd6",
+                "reference": "695259116f05abd5ca82b6d46ab5ec8d02931cd6",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1817,7 +1817,7 @@
                 }
             ],
             "description": "Delegate OAuth 2 authorization to another WordPress site",
-            "time": "2019-05-29T12:11:49+00:00"
+            "time": "2020-01-29T12:37:22+00:00"
         },
         {
             "name": "humanmade/facebook-instant-articles-wp",
@@ -3712,16 +3712,16 @@
         },
         {
             "name": "robrichards/xmlseclibs",
-            "version": "3.0.4",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robrichards/xmlseclibs.git",
-                "reference": "0a53d3c3aa87564910cae4ed01416441d3ae0db5"
+                "reference": "8d8e56ca7914440a8c60caff1a865e7dff1d9a5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/0a53d3c3aa87564910cae4ed01416441d3ae0db5",
-                "reference": "0a53d3c3aa87564910cae4ed01416441d3ae0db5",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/8d8e56ca7914440a8c60caff1a865e7dff1d9a5a",
+                "reference": "8d8e56ca7914440a8c60caff1a865e7dff1d9a5a",
                 "shasum": ""
             },
             "require": {
@@ -3746,7 +3746,7 @@
                 "xml",
                 "xmldsig"
             ],
-            "time": "2019-11-05T11:44:22+00:00"
+            "time": "2020-04-22T17:19:51+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
