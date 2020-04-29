@@ -686,16 +686,16 @@
         },
         {
             "name": "altis/security",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-security.git",
-                "reference": "3b332409b7c37451df01e9310e52075a941da279"
+                "reference": "fd9bbf23cd15d4a787d5d71aed98e04b3f578312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-security/zipball/3b332409b7c37451df01e9310e52075a941da279",
-                "reference": "3b332409b7c37451df01e9310e52075a941da279",
+                "url": "https://api.github.com/repos/humanmade/altis-security/zipball/fd9bbf23cd15d4a787d5d71aed98e04b3f578312",
+                "reference": "fd9bbf23cd15d4a787d5d71aed98e04b3f578312",
                 "shasum": ""
             },
             "require": {
@@ -731,7 +731,7 @@
                 }
             ],
             "description": "Security module for Altis",
-            "time": "2019-12-11T15:47:35+00:00"
+            "time": "2020-03-27T17:05:33+00:00"
         },
         {
             "name": "altis/seo",
