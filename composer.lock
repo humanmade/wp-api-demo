@@ -274,20 +274,20 @@
         },
         {
             "name": "altis/cms",
-            "version": "3.0.1",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms.git",
-                "reference": "447b9d7270fd4f7e7004fdcffc557cc23ee80d29"
+                "reference": "aaa6b0f52e248f45e5717e17b2de3b1f57fe617f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/447b9d7270fd4f7e7004fdcffc557cc23ee80d29",
-                "reference": "447b9d7270fd4f7e7004fdcffc557cc23ee80d29",
+                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/aaa6b0f52e248f45e5717e17b2de3b1f57fe617f",
+                "reference": "aaa6b0f52e248f45e5717e17b2de3b1f57fe617f",
                 "shasum": ""
             },
             "require": {
-                "altis/cms-installer": "^0.4.0",
+                "altis/cms-installer": "^0.4.1",
                 "johnpbloch/wordpress": "5.3.2",
                 "php": ">=7.1",
                 "roots/wp-password-bcrypt": "1.0.0",
@@ -322,7 +322,7 @@
                 }
             ],
             "description": "CMS Module for Altis",
-            "time": "2019-12-19T12:15:03+00:00"
+            "time": "2020-03-02T15:04:15+00:00"
         },
         {
             "name": "altis/cms-installer",
