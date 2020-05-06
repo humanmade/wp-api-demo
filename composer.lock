@@ -4926,16 +4926,16 @@
     "packages-dev": [
         {
             "name": "altis/local-server",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-local-server.git",
-                "reference": "8c1d4c61eb4f6a3347fe7d4170dbabe8ef860e83"
+                "reference": "1e82869e5e403dbfa4c3e625a95a8ae1f2ccb349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/8c1d4c61eb4f6a3347fe7d4170dbabe8ef860e83",
-                "reference": "8c1d4c61eb4f6a3347fe7d4170dbabe8ef860e83",
+                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/1e82869e5e403dbfa4c3e625a95a8ae1f2ccb349",
+                "reference": "1e82869e5e403dbfa4c3e625a95a8ae1f2ccb349",
                 "shasum": ""
             },
             "require": {
@@ -4967,7 +4967,7 @@
                 }
             ],
             "description": "Local Server module for Altis",
-            "time": "2020-02-24T13:57:44+00:00"
+            "time": "2020-05-06T08:27:06+00:00"
         }
     ],
     "aliases": [],
