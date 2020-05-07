@@ -611,16 +611,16 @@
         },
         {
             "name": "altis/media",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-media.git",
-                "reference": "5f5b1d336c2ea3185edfa160ed28995fbd3aaf0a"
+                "reference": "0c511a835db019e62200317552c351dea20475eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-media/zipball/5f5b1d336c2ea3185edfa160ed28995fbd3aaf0a",
-                "reference": "5f5b1d336c2ea3185edfa160ed28995fbd3aaf0a",
+                "url": "https://api.github.com/repos/humanmade/altis-media/zipball/0c511a835db019e62200317552c351dea20475eb",
+                "reference": "0c511a835db019e62200317552c351dea20475eb",
                 "shasum": ""
             },
             "require": {
@@ -628,7 +628,7 @@
                 "humanmade/aws-rekognition": "0.1.6",
                 "humanmade/gaussholder": "1.1.3",
                 "humanmade/smart-media": "^0.2.7",
-                "humanmade/tachyon-plugin": "0.11.0",
+                "humanmade/tachyon-plugin": "~0.11.1",
                 "php": ">=7.1"
             },
             "type": "library",
@@ -651,7 +651,7 @@
                 }
             ],
             "description": "Media module for Altis",
-            "time": "2020-02-24T14:08:28+00:00"
+            "time": "2020-05-07T09:54:20+00:00"
         },
         {
             "name": "altis/multilingual",
@@ -2126,16 +2126,16 @@
         },
         {
             "name": "humanmade/smart-media",
-            "version": "0.2.9",
+            "version": "0.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/smart-media.git",
-                "reference": "1b804cea6b541c3a24975c755ee94714bd091ec7"
+                "reference": "bb086bb015abfdfe15036645085ca25164c12009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/1b804cea6b541c3a24975c755ee94714bd091ec7",
-                "reference": "1b804cea6b541c3a24975c755ee94714bd091ec7",
+                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/bb086bb015abfdfe15036645085ca25164c12009",
+                "reference": "bb086bb015abfdfe15036645085ca25164c12009",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2150,7 +2150,7 @@
                 }
             ],
             "description": "Smart Media features for HM Cloud",
-            "time": "2020-04-27T10:22:30+00:00"
+            "time": "2020-05-07T10:28:14+00:00"
         },
         {
             "name": "humanmade/stream",
@@ -2178,16 +2178,16 @@
         },
         {
             "name": "humanmade/tachyon-plugin",
-            "version": "0.11.0",
+            "version": "0.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/tachyon-plugin.git",
-                "reference": "0ace90ddcd8ddaeca428bbddfaaeb43c0a4783e2"
+                "reference": "945ce4036bb30d60bf0014fee302daa9f0ee8a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/tachyon-plugin/zipball/0ace90ddcd8ddaeca428bbddfaaeb43c0a4783e2",
-                "reference": "0ace90ddcd8ddaeca428bbddfaaeb43c0a4783e2",
+                "url": "https://api.github.com/repos/humanmade/tachyon-plugin/zipball/945ce4036bb30d60bf0014fee302daa9f0ee8a7e",
+                "reference": "945ce4036bb30d60bf0014fee302daa9f0ee8a7e",
                 "shasum": ""
             },
             "require-dev": {
@@ -2205,7 +2205,7 @@
                 }
             ],
             "description": "Rewrites WordPress image URLs to use Tachyon",
-            "time": "2020-02-20T21:53:11+00:00"
+            "time": "2020-05-06T13:31:43+00:00"
         },
         {
             "name": "humanmade/two-factor",
