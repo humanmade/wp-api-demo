@@ -159,12 +159,12 @@
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/humanmade/analytics.git",
+                "url": "https://github.com/humanmade/aws-analytics.git",
                 "reference": "735a5048b8afcd03bba0d1720fbd52f7e5256ad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/analytics/zipball/735a5048b8afcd03bba0d1720fbd52f7e5256ad4",
+                "url": "https://api.github.com/repos/humanmade/aws-analytics/zipball/735a5048b8afcd03bba0d1720fbd52f7e5256ad4",
                 "reference": "735a5048b8afcd03bba0d1720fbd52f7e5256ad4",
                 "shasum": ""
             },
@@ -223,16 +223,16 @@
         },
         {
             "name": "altis/cloud",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cloud.git",
-                "reference": "2e6139035fd47a0855bb91be0c2d678e0ba14a3d"
+                "reference": "613b669f135f0c411e721e311a1fa1ef4e6d274d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/2e6139035fd47a0855bb91be0c2d678e0ba14a3d",
-                "reference": "2e6139035fd47a0855bb91be0c2d678e0ba14a3d",
+                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/613b669f135f0c411e721e311a1fa1ef4e6d274d",
+                "reference": "613b669f135f0c411e721e311a1fa1ef4e6d274d",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +256,8 @@
                     "inc/healthcheck/namespace.php",
                     "inc/healthcheck/cavalcade/namespace.php",
                     "inc/namespace.php",
-                    "wp-config.php"
+                    "wp-config.php",
+                    "inc/cloudfront_media_purge/namespace.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -270,7 +271,7 @@
                 }
             ],
             "description": "Cloud module for Altis",
-            "time": "2020-04-03T15:00:30+00:00"
+            "time": "2020-05-27T07:15:44+00:00"
         },
         {
             "name": "altis/cms",
@@ -864,16 +865,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.136.0",
+            "version": "3.138.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "223e616d5eda2e60c338279c3b0136455f74f7d0"
+                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/223e616d5eda2e60c338279c3b0136455f74f7d0",
-                "reference": "223e616d5eda2e60c338279c3b0136455f74f7d0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bc3d77e84d1589c9536f94043622bf56d1d68809",
+                "reference": "bc3d77e84d1589c9536f94043622bf56d1d68809",
                 "shasum": ""
             },
             "require": {
@@ -944,7 +945,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-04-29T19:14:20+00:00"
+            "time": "2020-05-26T18:10:59+00:00"
         },
         {
             "name": "bjeavons/zxcvbn-php",
@@ -1414,16 +1415,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.3",
+            "version": "6.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "aab4ebd862aa7d04f01a4b51849d657db56d882e"
+                "reference": "a4a1b6930528a8f7ee03518e6442ec7a44155d9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/aab4ebd862aa7d04f01a4b51849d657db56d882e",
-                "reference": "aab4ebd862aa7d04f01a4b51849d657db56d882e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a4a1b6930528a8f7ee03518e6442ec7a44155d9d",
+                "reference": "a4a1b6930528a8f7ee03518e6442ec7a44155d9d",
                 "shasum": ""
             },
             "require": {
@@ -1431,7 +1432,7 @@
                 "guzzlehttp/promises": "^1.0",
                 "guzzlehttp/psr7": "^1.6.1",
                 "php": ">=5.5",
-                "symfony/polyfill-intl-idn": "^1.11"
+                "symfony/polyfill-intl-idn": "1.17.0"
             },
             "require-dev": {
                 "ext-curl": "*",
@@ -1477,7 +1478,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-04-18T10:38:46+00:00"
+            "time": "2020-05-25T19:35:05+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1701,16 +1702,16 @@
         },
         {
             "name": "humanmade/aws-xray",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/aws-xray.git",
-                "reference": "f5870a2171de00aba24aff6212d26557f549c8dd"
+                "reference": "f36417da8bc502f1ecf6b585b049bec1a89bcc89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/aws-xray/zipball/f5870a2171de00aba24aff6212d26557f549c8dd",
-                "reference": "f5870a2171de00aba24aff6212d26557f549c8dd",
+                "url": "https://api.github.com/repos/humanmade/aws-xray/zipball/f36417da8bc502f1ecf6b585b049bec1a89bcc89",
+                "reference": "f36417da8bc502f1ecf6b585b049bec1a89bcc89",
                 "shasum": ""
             },
             "require-dev": {
@@ -1728,7 +1729,7 @@
                 }
             ],
             "description": "HM Platform AWS X-Ray Integration",
-            "time": "2020-03-05T12:13:21+00:00"
+            "time": "2020-05-13T15:35:04+00:00"
         },
         {
             "name": "humanmade/batcache",
@@ -4599,16 +4600,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf"
+                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
-                "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3bff59ea7047e925be6b7f2059d60af31bb46d6a",
+                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a",
                 "shasum": ""
             },
             "require": {
@@ -4622,7 +4623,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -4657,20 +4658,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-03-09T19:04:49+00:00"
+            "time": "2020-05-12T16:47:27+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
+                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
+                "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
                 "shasum": ""
             },
             "require": {
@@ -4682,7 +4683,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -4716,20 +4717,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-03-09T19:04:49+00:00"
+            "time": "2020-05-12T16:47:27+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747"
+                "reference": "f048e612a3905f34931127360bdd2def19a5e582"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
-                "reference": "37b0976c78b94856543260ce09b460a7bc852747",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/f048e612a3905f34931127360bdd2def19a5e582",
+                "reference": "f048e612a3905f34931127360bdd2def19a5e582",
                 "shasum": ""
             },
             "require": {
@@ -4738,7 +4739,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -4771,7 +4772,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-12T16:47:27+00:00"
         },
         {
             "name": "theseer/tokenizer",
