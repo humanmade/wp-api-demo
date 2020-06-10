@@ -223,16 +223,16 @@
         },
         {
             "name": "altis/cloud",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cloud.git",
-                "reference": "cffc0bb5628312f13bcb8bcfe1b4dd63d2b59ad2"
+                "reference": "683ef134403c13879709c9fb5597a756c032d764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/cffc0bb5628312f13bcb8bcfe1b4dd63d2b59ad2",
-                "reference": "cffc0bb5628312f13bcb8bcfe1b4dd63d2b59ad2",
+                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/683ef134403c13879709c9fb5597a756c032d764",
+                "reference": "683ef134403c13879709c9fb5597a756c032d764",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
                 }
             ],
             "description": "Cloud module for Altis",
-            "time": "2020-06-03T17:20:23+00:00"
+            "time": "2020-06-09T08:38:13+00:00"
         },
         {
             "name": "altis/cms",
@@ -865,16 +865,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.140.0",
+            "version": "3.140.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9798418d4f0cdc0cf11dab453eca96e1d072df79"
+                "reference": "298ec070adad5760c4b90348219bb3e6bd7a9322"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9798418d4f0cdc0cf11dab453eca96e1d072df79",
-                "reference": "9798418d4f0cdc0cf11dab453eca96e1d072df79",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/298ec070adad5760c4b90348219bb3e6bd7a9322",
+                "reference": "298ec070adad5760c4b90348219bb3e6bd7a9322",
                 "shasum": ""
             },
             "require": {
@@ -945,7 +945,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-06-03T18:12:30+00:00"
+            "time": "2020-06-09T18:11:16+00:00"
         },
         {
             "name": "bjeavons/zxcvbn-php",
