@@ -456,16 +456,16 @@
         },
         {
             "name": "altis/dev-tools-command",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-dev-tools-command.git",
-                "reference": "c6754747246b4a408315c6e33e00075f586f5eb3"
+                "reference": "38b1497d013c4a9d99d6490ae18926260d59148b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-dev-tools-command/zipball/c6754747246b4a408315c6e33e00075f586f5eb3",
-                "reference": "c6754747246b4a408315c6e33e00075f586f5eb3",
+                "url": "https://api.github.com/repos/humanmade/altis-dev-tools-command/zipball/38b1497d013c4a9d99d6490ae18926260d59148b",
+                "reference": "38b1497d013c4a9d99d6490ae18926260d59148b",
                 "shasum": ""
             },
             "require": {
@@ -491,7 +491,7 @@
                 }
             ],
             "description": "Developer Tools command for Altis",
-            "time": "2019-12-11T11:55:04+00:00"
+            "time": "2020-06-12T12:48:37+00:00"
         },
         {
             "name": "altis/documentation",
