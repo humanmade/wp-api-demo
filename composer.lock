@@ -156,16 +156,16 @@
         },
         {
             "name": "altis/aws-analytics",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/aws-analytics.git",
-                "reference": "735a5048b8afcd03bba0d1720fbd52f7e5256ad4"
+                "reference": "bf68c9ddbe40142e7576fff036422c24a9e41463"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/aws-analytics/zipball/735a5048b8afcd03bba0d1720fbd52f7e5256ad4",
-                "reference": "735a5048b8afcd03bba0d1720fbd52f7e5256ad4",
+                "url": "https://api.github.com/repos/humanmade/aws-analytics/zipball/bf68c9ddbe40142e7576fff036422c24a9e41463",
+                "reference": "bf68c9ddbe40142e7576fff036422c24a9e41463",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 }
             ],
             "description": "AWS Pinpoint Analytics integration for WordPress",
-            "time": "2020-02-28T10:57:15+00:00"
+            "time": "2020-06-15T10:54:35+00:00"
         },
         {
             "name": "altis/browser-security",
