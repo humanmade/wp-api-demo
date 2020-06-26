@@ -223,16 +223,16 @@
         },
         {
             "name": "altis/cloud",
-            "version": "3.0.9",
+            "version": "3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cloud.git",
-                "reference": "5c2c3a04cd9bc78e320b775184fb42839f66d824"
+                "reference": "d44d47615c2df59adad01c54ded7ade2348f9cb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/5c2c3a04cd9bc78e320b775184fb42839f66d824",
-                "reference": "5c2c3a04cd9bc78e320b775184fb42839f66d824",
+                "url": "https://api.github.com/repos/humanmade/altis-cloud/zipball/d44d47615c2df59adad01c54ded7ade2348f9cb6",
+                "reference": "d44d47615c2df59adad01c54ded7ade2348f9cb6",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
                 }
             ],
             "description": "Cloud module for Altis",
-            "time": "2020-06-19T12:06:45+00:00"
+            "time": "2020-06-25T09:47:15+00:00"
         },
         {
             "name": "altis/cms",
@@ -865,16 +865,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.142.6",
+            "version": "3.143.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "09a2e1ef4e684c9636d27029e1b163d90c4c166a"
+                "reference": "95787e2fa023738835bc2dfceef46b8ccbcdb4ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/09a2e1ef4e684c9636d27029e1b163d90c4c166a",
-                "reference": "09a2e1ef4e684c9636d27029e1b163d90c4c166a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/95787e2fa023738835bc2dfceef46b8ccbcdb4ad",
+                "reference": "95787e2fa023738835bc2dfceef46b8ccbcdb4ad",
                 "shasum": ""
             },
             "require": {
@@ -946,7 +946,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-06-19T18:20:04+00:00"
+            "time": "2020-06-25T18:46:20+00:00"
         },
         {
             "name": "bjeavons/zxcvbn-php",
@@ -1713,16 +1713,16 @@
         },
         {
             "name": "humanmade/aws-xray",
-            "version": "1.2.10",
+            "version": "1.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/aws-xray.git",
-                "reference": "b125ef1a6eec0691141c16b38d25e8392d0df80b"
+                "reference": "557b9bceadd2ec0d65414d9db72e639a8356b4a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/aws-xray/zipball/b125ef1a6eec0691141c16b38d25e8392d0df80b",
-                "reference": "b125ef1a6eec0691141c16b38d25e8392d0df80b",
+                "url": "https://api.github.com/repos/humanmade/aws-xray/zipball/557b9bceadd2ec0d65414d9db72e639a8356b4a8",
+                "reference": "557b9bceadd2ec0d65414d9db72e639a8356b4a8",
                 "shasum": ""
             },
             "require-dev": {
@@ -1740,7 +1740,7 @@
                 }
             ],
             "description": "HM Platform AWS X-Ray Integration",
-            "time": "2020-06-12T12:26:27+00:00"
+            "time": "2020-06-22T11:57:44+00:00"
         },
         {
             "name": "humanmade/batcache",
