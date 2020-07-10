@@ -687,22 +687,22 @@
         },
         {
             "name": "altis/security",
-            "version": "3.0.2",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-security.git",
-                "reference": "b08d25afca5cb692964675302615ff73c849e281"
+                "reference": "85d140c0f1a2898316ecb5145370cc4470e5de6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-security/zipball/b08d25afca5cb692964675302615ff73c849e281",
-                "reference": "b08d25afca5cb692964675302615ff73c849e281",
+                "url": "https://api.github.com/repos/humanmade/altis-security/zipball/85d140c0f1a2898316ecb5145370cc4470e5de6e",
+                "reference": "85d140c0f1a2898316ecb5145370cc4470e5de6e",
                 "shasum": ""
             },
             "require": {
                 "altis/browser-security": "^1.0.0",
                 "bjeavons/zxcvbn-php": "^0.4.0",
-                "humanmade/require-login": "1.0.1",
+                "humanmade/require-login": "~1.0.2",
                 "humanmade/stream": "3.3.0",
                 "humanmade/two-factor": "0.2",
                 "php": ">=7.1"
@@ -732,7 +732,7 @@
                 }
             ],
             "description": "Security module for Altis",
-            "time": "2020-06-24T14:12:29+00:00"
+            "time": "2020-07-09T10:42:08+00:00"
         },
         {
             "name": "altis/seo",
@@ -2073,16 +2073,16 @@
         },
         {
             "name": "humanmade/require-login",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/hm-require-login.git",
-                "reference": "6b1a093977760b214d5f80bfd76b27d318a4c294"
+                "reference": "7d744b6e956dae723b52bfadf23e9ec5188269b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/hm-require-login/zipball/6b1a093977760b214d5f80bfd76b27d318a4c294",
-                "reference": "6b1a093977760b214d5f80bfd76b27d318a4c294",
+                "url": "https://api.github.com/repos/humanmade/hm-require-login/zipball/7d744b6e956dae723b52bfadf23e9ec5188269b2",
+                "reference": "7d744b6e956dae723b52bfadf23e9ec5188269b2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2097,7 +2097,7 @@
                 }
             ],
             "description": "Script that requires users to be logged in view site.",
-            "time": "2019-12-11T15:20:37+00:00"
+            "time": "2020-06-26T10:34:05+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
