@@ -1,6 +1,6 @@
 composer install --no-dev
 
-cd content/plugins-mu/restsplain
+cd content/mu-plugins/restsplain
 git checkout master
 git pull
 cd ../../themes/broker-authentication
