@@ -495,16 +495,16 @@
         },
         {
             "name": "altis/documentation",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-documentation.git",
-                "reference": "63dff4a49767b60681aaf729a9e386e170e19754"
+                "reference": "5202ad198fd010c5f16d4d8c865103513058424e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-documentation/zipball/63dff4a49767b60681aaf729a9e386e170e19754",
-                "reference": "63dff4a49767b60681aaf729a9e386e170e19754",
+                "url": "https://api.github.com/repos/humanmade/altis-documentation/zipball/5202ad198fd010c5f16d4d8c865103513058424e",
+                "reference": "5202ad198fd010c5f16d4d8c865103513058424e",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
                 }
             ],
             "description": "Documentation module for Altis",
-            "time": "2020-03-02T15:03:54+00:00"
+            "time": "2020-07-10T13:51:41+00:00"
         },
         {
             "name": "altis/enhanced-search",
