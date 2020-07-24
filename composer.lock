@@ -540,16 +540,16 @@
         },
         {
             "name": "altis/enhanced-search",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-enhanced-search.git",
-                "reference": "70049c567e8f8738cf4c44578c50872641826813"
+                "reference": "fa66b9d4ce2bc9976dadd58abfa6a4451f8dc258"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/70049c567e8f8738cf4c44578c50872641826813",
-                "reference": "70049c567e8f8738cf4c44578c50872641826813",
+                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/fa66b9d4ce2bc9976dadd58abfa6a4451f8dc258",
+                "reference": "fa66b9d4ce2bc9976dadd58abfa6a4451f8dc258",
                 "shasum": ""
             },
             "require": {
@@ -576,7 +576,7 @@
                 }
             ],
             "description": "Enhanced Search module for Altis",
-            "time": "2020-05-07T14:11:58+00:00"
+            "time": "2020-07-23T13:59:15+00:00"
         },
         {
             "name": "altis/experiments",
