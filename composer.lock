@@ -1312,6 +1312,7 @@
                 "instantarticles",
                 "sdk"
             ],
+            "abandoned": true,
             "time": "2018-02-08T18:21:18+00:00"
         },
         {
@@ -5015,20 +5016,20 @@
     "packages-dev": [
         {
             "name": "altis/local-server",
-            "version": "3.0.4",
+            "version": "3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-local-server.git",
-                "reference": "418ec8aa2d08b1c12f24a01af51499c0c28fa418"
+                "reference": "3e8f1431b691400b271a996fca409959af1fe356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/418ec8aa2d08b1c12f24a01af51499c0c28fa418",
-                "reference": "418ec8aa2d08b1c12f24a01af51499c0c28fa418",
+                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/3e8f1431b691400b271a996fca409959af1fe356",
+                "reference": "3e8f1431b691400b271a996fca409959af1fe356",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.1"
             },
             "type": "composer-plugin",
@@ -5056,7 +5057,7 @@
                 }
             ],
             "description": "Local Server module for Altis",
-            "time": "2020-06-11T15:31:19+00:00"
+            "time": "2020-10-29T11:24:44+00:00"
         }
     ],
     "aliases": [],
