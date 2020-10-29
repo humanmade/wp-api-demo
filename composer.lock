@@ -456,20 +456,20 @@
         },
         {
             "name": "altis/dev-tools-command",
-            "version": "0.3.1",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-dev-tools-command.git",
-                "reference": "38b1497d013c4a9d99d6490ae18926260d59148b"
+                "reference": "6316476125c696115afcc2e7181b9c6b1133f22c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-dev-tools-command/zipball/38b1497d013c4a9d99d6490ae18926260d59148b",
-                "reference": "38b1497d013c4a9d99d6490ae18926260d59148b",
+                "url": "https://api.github.com/repos/humanmade/altis-dev-tools-command/zipball/6316476125c696115afcc2e7181b9c6b1133f22c",
+                "reference": "6316476125c696115afcc2e7181b9c6b1133f22c",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1"
+                "composer-plugin-api": "^1.1 || ^2.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -491,7 +491,7 @@
                 }
             ],
             "description": "Developer Tools command for Altis",
-            "time": "2020-06-12T12:48:37+00:00"
+            "time": "2020-10-29T09:49:35+00:00"
         },
         {
             "name": "altis/documentation",
@@ -1312,6 +1312,7 @@
                 "instantarticles",
                 "sdk"
             ],
+            "abandoned": true,
             "time": "2018-02-08T18:21:18+00:00"
         },
         {
