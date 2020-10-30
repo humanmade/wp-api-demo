@@ -275,20 +275,20 @@
         },
         {
             "name": "altis/cms",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms.git",
-                "reference": "e82341484fbd0bdf2923a7d81873633d11be8f14"
+                "reference": "31d3bfb12f047d4dfc072889f87be3e86be0ddfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/e82341484fbd0bdf2923a7d81873633d11be8f14",
-                "reference": "e82341484fbd0bdf2923a7d81873633d11be8f14",
+                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/31d3bfb12f047d4dfc072889f87be3e86be0ddfb",
+                "reference": "31d3bfb12f047d4dfc072889f87be3e86be0ddfb",
                 "shasum": ""
             },
             "require": {
-                "altis/cms-installer": "^0.4.1",
+                "altis/cms-installer": "^0.4.3",
                 "johnpbloch/wordpress": "5.3.4",
                 "php": ">=7.1",
                 "roots/wp-password-bcrypt": "1.0.0",
@@ -323,24 +323,24 @@
                 }
             ],
             "description": "CMS Module for Altis",
-            "time": "2020-06-11T08:47:08+00:00"
+            "time": "2020-10-29T11:27:23+00:00"
         },
         {
             "name": "altis/cms-installer",
-            "version": "0.4.2",
+            "version": "0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms-installer.git",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731"
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/e9b64260c14ed252b92ee6c4417658759ef17731",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731",
+                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/d4a49f633e5ce33a248d8bc411ee1a25561ef827",
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.1"
             },
             "type": "composer-plugin",
@@ -363,7 +363,7 @@
                 }
             ],
             "description": "CMS Installer plugin for Altis",
-            "time": "2020-04-15T10:57:11+00:00"
+            "time": "2020-10-29T10:13:57+00:00"
         },
         {
             "name": "altis/core",
@@ -1312,6 +1312,7 @@
                 "instantarticles",
                 "sdk"
             ],
+            "abandoned": true,
             "time": "2018-02-08T18:21:18+00:00"
         },
         {
