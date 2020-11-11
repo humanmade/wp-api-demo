@@ -275,21 +275,21 @@
         },
         {
             "name": "altis/cms",
-            "version": "3.0.6",
+            "version": "3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms.git",
-                "reference": "e82341484fbd0bdf2923a7d81873633d11be8f14"
+                "reference": "42f105dd0497bffdcfd98ac0fe577d9c8d8a7754"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/e82341484fbd0bdf2923a7d81873633d11be8f14",
-                "reference": "e82341484fbd0bdf2923a7d81873633d11be8f14",
+                "url": "https://api.github.com/repos/humanmade/altis-cms/zipball/42f105dd0497bffdcfd98ac0fe577d9c8d8a7754",
+                "reference": "42f105dd0497bffdcfd98ac0fe577d9c8d8a7754",
                 "shasum": ""
             },
             "require": {
-                "altis/cms-installer": "^0.4.1",
-                "johnpbloch/wordpress": "5.3.4",
+                "altis/cms-installer": "^0.4.3",
+                "johnpbloch/wordpress": "5.3.6",
                 "php": ">=7.1",
                 "roots/wp-password-bcrypt": "1.0.0",
                 "stuttter/wp-user-signups": "3.1.0"
@@ -323,24 +323,24 @@
                 }
             ],
             "description": "CMS Module for Altis",
-            "time": "2020-06-11T08:47:08+00:00"
+            "time": "2020-11-06T17:18:28+00:00"
         },
         {
             "name": "altis/cms-installer",
-            "version": "0.4.2",
+            "version": "0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms-installer.git",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731"
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/e9b64260c14ed252b92ee6c4417658759ef17731",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731",
+                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/d4a49f633e5ce33a248d8bc411ee1a25561ef827",
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.1"
             },
             "type": "composer-plugin",
@@ -363,7 +363,7 @@
                 }
             ],
             "description": "CMS Installer plugin for Altis",
-            "time": "2020-04-15T10:57:11+00:00"
+            "time": "2020-10-29T10:13:57+00:00"
         },
         {
             "name": "altis/core",
@@ -1312,6 +1312,7 @@
                 "instantarticles",
                 "sdk"
             ],
+            "abandoned": true,
             "time": "2018-02-08T18:21:18+00:00"
         },
         {
@@ -2487,20 +2488,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "5.3.4",
+            "version": "5.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e4c7cd3347a8c0f4c82ea52d147f0f865b4a0910"
+                "reference": "161c858abe2c38188b8b5e05d54bb72498423744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e4c7cd3347a8c0f4c82ea52d147f0f865b4a0910",
-                "reference": "e4c7cd3347a8c0f4c82ea52d147f0f865b4a0910",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/161c858abe2c38188b8b5e05d54bb72498423744",
+                "reference": "161c858abe2c38188b8b5e05d54bb72498423744",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "5.3.4",
+                "johnpbloch/wordpress-core": "5.3.6",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -2522,20 +2523,20 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-06-10T22:05:33+00:00"
+            "time": "2020-10-30T20:47:57+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "5.3.4",
+            "version": "5.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bad2ce8efead00e583586cb049f69be8e3b31db8"
+                "reference": "fb4d7db356bfad91528393fba08c9e120c2b2290"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bad2ce8efead00e583586cb049f69be8e3b31db8",
-                "reference": "bad2ce8efead00e583586cb049f69be8e3b31db8",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fb4d7db356bfad91528393fba08c9e120c2b2290",
+                "reference": "fb4d7db356bfad91528393fba08c9e120c2b2290",
                 "shasum": ""
             },
             "require": {
@@ -2543,7 +2544,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "5.3.4"
+                "wordpress/core-implementation": "5.3.6"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2563,7 +2564,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-06-10T22:05:28+00:00"
+            "time": "2020-10-30T20:47:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
