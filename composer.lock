@@ -1312,6 +1312,7 @@
                 "instantarticles",
                 "sdk"
             ],
+            "abandoned": true,
             "time": "2018-02-08T18:21:18+00:00"
         },
         {
@@ -4447,17 +4448,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stuttter/ludicrousdb.git",
-                "reference": "d5d27fc4e19ccfeecac627130e1ec68a800ca381"
+                "reference": "dc3167b9696e9adbb3834a39453c2cc5575c65c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/d5d27fc4e19ccfeecac627130e1ec68a800ca381",
-                "reference": "d5d27fc4e19ccfeecac627130e1ec68a800ca381",
+                "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/dc3167b9696e9adbb3834a39453c2cc5575c65c4",
+                "reference": "dc3167b9696e9adbb3834a39453c2cc5575c65c4",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "sirbrillig/phpcs-variable-analysis": "^2.8",
+                "wp-coding-standards/wpcs": "^2.2"
             },
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -4476,7 +4483,7 @@
             ],
             "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
             "homepage": "https://github.com/stuttter/ludicrousdb",
-            "time": "2019-01-04T21:52:47+00:00"
+            "time": "2020-11-21T18:06:57+00:00"
         },
         {
             "name": "stuttter/wp-user-signups",
@@ -5015,20 +5022,20 @@
     "packages-dev": [
         {
             "name": "altis/local-server",
-            "version": "3.0.4",
+            "version": "3.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-local-server.git",
-                "reference": "418ec8aa2d08b1c12f24a01af51499c0c28fa418"
+                "reference": "ab6d25aa291b20be5f6071680a03de3443d471b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/418ec8aa2d08b1c12f24a01af51499c0c28fa418",
-                "reference": "418ec8aa2d08b1c12f24a01af51499c0c28fa418",
+                "url": "https://api.github.com/repos/humanmade/altis-local-server/zipball/ab6d25aa291b20be5f6071680a03de3443d471b5",
+                "reference": "ab6d25aa291b20be5f6071680a03de3443d471b5",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.1"
             },
             "type": "composer-plugin",
@@ -5056,7 +5063,7 @@
                 }
             ],
             "description": "Local Server module for Altis",
-            "time": "2020-06-11T15:31:19+00:00"
+            "time": "2020-12-27T19:24:45+00:00"
         }
     ],
     "aliases": [],
