@@ -327,20 +327,20 @@
         },
         {
             "name": "altis/cms-installer",
-            "version": "0.4.2",
+            "version": "0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-cms-installer.git",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731"
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/e9b64260c14ed252b92ee6c4417658759ef17731",
-                "reference": "e9b64260c14ed252b92ee6c4417658759ef17731",
+                "url": "https://api.github.com/repos/humanmade/altis-cms-installer/zipball/d4a49f633e5ce33a248d8bc411ee1a25561ef827",
+                "reference": "d4a49f633e5ce33a248d8bc411ee1a25561ef827",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1",
+                "composer-plugin-api": "^1.1 || ^2.0",
                 "php": ">=7.1"
             },
             "type": "composer-plugin",
@@ -363,7 +363,7 @@
                 }
             ],
             "description": "CMS Installer plugin for Altis",
-            "time": "2020-04-15T10:57:11+00:00"
+            "time": "2020-10-29T10:13:57+00:00"
         },
         {
             "name": "altis/core",
