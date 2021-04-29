@@ -1,0 +1,24 @@
+version: 2
+registries:
+  composer-repository-my-yoast-com:
+    type: composer-repository
+    url: https://my.yoast.com
+    username: token
+    password: "${{secrets.COMPOSER_REPOSITORY_MY_YOAST_COM_PASSWORD}}"
+
+updates:
+- package-ecosystem: composer
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: master
+  versioning-strategy: lockfile-only
+  allow:
+  - dependency-name: altis/*
+  ignore:
+  - dependency-name: altis/dev-tools-command
+    versions:
+    - 0.3.3
+  registries:
+  - composer-repository-my-yoast-com
